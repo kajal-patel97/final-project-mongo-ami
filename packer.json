@@ -6,15 +6,15 @@
   "builders": [{
 
 
-    "ami_name": "kajal-patel-mongodb-{{timestamp}}",
+    "ami_name": "final-project-mongo-ami-{{timestamp}}",
 
     "type": "amazon-ebs",
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
     "subnet_id": "subnet-05f17c9de25b45b3a",
     "associate_public_ip_address": "true",
-    "ssh_keypair_name": "kajal-eng-48-first-key",
-    "ssh_private_key_file": "~/.ssh/kajal-eng-48-first-key.pem ",
+    "ssh_keypair_name": "Eng-48-common-key",
+    "ssh_private_key_file": "~/.ssh/Eng-48-common-key.pem ",
 
     "region": "eu-west-1",
     "source_ami_filter": {
